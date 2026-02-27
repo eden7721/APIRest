@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\PersonajesAnime\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3231C499-0990-5762-B336-F815318E7157}|PersonajesAnime\\PersonajesAnime.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\personajesanime\\personajesanime\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3231C499-0990-5762-B336-F815318E7157}|PersonajesAnime\\PersonajesAnime.csproj|solutionrelative:personajesanime\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3231C499-0990-5762-B336-F815318E7157}|PersonajesAnime\\PersonajesAnime.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\personajesanime\\personajesanime\\services\\personajeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3231C499-0990-5762-B336-F815318E7157}|PersonajesAnime\\PersonajesAnime.csproj|solutionrelative:personajesanime\\services\\personajeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3231C499-0990-5762-B336-F815318E7157}|PersonajesAnime\\PersonajesAnime.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\personajesanime\\personajesanime\\controllers\\personajescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3231C499-0990-5762-B336-F815318E7157}|PersonajesAnime\\PersonajesAnime.csproj|solutionrelative:personajesanime\\controllers\\personajescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3231C499-0990-5762-B336-F815318E7157}|PersonajesAnime\\PersonajesAnime.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\personajesanime\\personajesanime\\models\\personaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3231C499-0990-5762-B336-F815318E7157}|PersonajesAnime\\PersonajesAnime.csproj|solutionrelative:personajesanime\\models\\personaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3231C499-0990-5762-B336-F815318E7157}|PersonajesAnime\\PersonajesAnime.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\personajesanime\\personajesanime\\respositories\\personajesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3231C499-0990-5762-B336-F815318E7157}|PersonajesAnime\\PersonajesAnime.csproj|solutionrelative:personajesanime\\respositories\\personajesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3231C499-0990-5762-B336-F815318E7157}|PersonajesAnime\\PersonajesAnime.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\personajesanime\\personajesanime\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3231C499-0990-5762-B336-F815318E7157}|PersonajesAnime\\PersonajesAnime.csproj|solutionrelative:personajesanime\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonajeService.cs",
+              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\PersonajesAnime\\PersonajesAnime\\Services\\PersonajeService.cs",
+              "RelativeDocumentMoniker": "PersonajesAnime\\Services\\PersonajeService.cs",
+              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\PersonajesAnime\\PersonajesAnime\\Services\\PersonajeService.cs",
+              "RelativeToolTip": "PersonajesAnime\\Services\\PersonajeService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T02:47:02.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PersonajesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\PersonajesAnime\\PersonajesAnime\\Respositories\\PersonajesRepository.cs",
+              "RelativeDocumentMoniker": "PersonajesAnime\\Respositories\\PersonajesRepository.cs",
+              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\PersonajesAnime\\PersonajesAnime\\Respositories\\PersonajesRepository.cs",
+              "RelativeToolTip": "PersonajesAnime\\Respositories\\PersonajesRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBQAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T02:11:59.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersonajesController.cs",
+              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\PersonajesAnime\\PersonajesAnime\\Controllers\\PersonajesController.cs",
+              "RelativeDocumentMoniker": "PersonajesAnime\\Controllers\\PersonajesController.cs",
+              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\PersonajesAnime\\PersonajesAnime\\Controllers\\PersonajesController.cs",
+              "RelativeToolTip": "PersonajesAnime\\Controllers\\PersonajesController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T01:26:07.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Personaje.cs",
+              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\PersonajesAnime\\PersonajesAnime\\Models\\Personaje.cs",
+              "RelativeDocumentMoniker": "PersonajesAnime\\Models\\Personaje.cs",
+              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\PersonajesAnime\\PersonajesAnime\\Models\\Personaje.cs",
+              "RelativeToolTip": "PersonajesAnime\\Models\\Personaje.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T01:16:39.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\PersonajesAnime\\PersonajesAnime\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "PersonajesAnime\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\PersonajesAnime\\PersonajesAnime\\WeatherForecast.cs",
+              "RelativeToolTip": "PersonajesAnime\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T01:15:10.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\PersonajesAnime\\PersonajesAnime\\Program.cs",
+              "RelativeDocumentMoniker": "PersonajesAnime\\Program.cs",
+              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\PersonajesAnime\\PersonajesAnime\\Program.cs",
+              "RelativeToolTip": "PersonajesAnime\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T01:15:08.354Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
