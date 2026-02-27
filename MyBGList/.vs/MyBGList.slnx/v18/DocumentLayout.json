@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\MyBGList\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F611D5AF-6BAF-707A-C2AC-D074983FE13B}|MyBGList\\MyBGList.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\mybglist\\mybglist\\controllers\\boardgamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F611D5AF-6BAF-707A-C2AC-D074983FE13B}|MyBGList\\MyBGList.csproj|solutionrelative:mybglist\\controllers\\boardgamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F611D5AF-6BAF-707A-C2AC-D074983FE13B}|MyBGList\\MyBGList.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\mybglist\\mybglist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F611D5AF-6BAF-707A-C2AC-D074983FE13B}|MyBGList\\MyBGList.csproj|solutionrelative:mybglist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F611D5AF-6BAF-707A-C2AC-D074983FE13B}|MyBGList\\MyBGList.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\mybglist\\mybglist\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F611D5AF-6BAF-707A-C2AC-D074983FE13B}|MyBGList\\MyBGList.csproj|solutionrelative:mybglist\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F611D5AF-6BAF-707A-C2AC-D074983FE13B}|MyBGList\\MyBGList.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\mybglist\\mybglist\\appsettings.staging.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F611D5AF-6BAF-707A-C2AC-D074983FE13B}|MyBGList\\MyBGList.csproj|solutionrelative:mybglist\\appsettings.staging.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F611D5AF-6BAF-707A-C2AC-D074983FE13B}|MyBGList\\MyBGList.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\mybglist\\mybglist\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F611D5AF-6BAF-707A-C2AC-D074983FE13B}|MyBGList\\MyBGList.csproj|solutionrelative:mybglist\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F611D5AF-6BAF-707A-C2AC-D074983FE13B}|MyBGList\\MyBGList.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\mybglist\\mybglist\\boardgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F611D5AF-6BAF-707A-C2AC-D074983FE13B}|MyBGList\\MyBGList.csproj|solutionrelative:mybglist\\boardgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F611D5AF-6BAF-707A-C2AC-D074983FE13B}|MyBGList\\MyBGList.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\mybglist\\mybglist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F611D5AF-6BAF-707A-C2AC-D074983FE13B}|MyBGList\\MyBGList.csproj|solutionrelative:mybglist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\MyBGList\\MyBGList\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "MyBGList\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\MyBGList\\MyBGList\\appsettings.Development.json",
+              "RelativeToolTip": "MyBGList\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-26T02:17:18.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Staging.json",
+              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\MyBGList\\MyBGList\\appsettings.Staging.json",
+              "RelativeDocumentMoniker": "MyBGList\\appsettings.Staging.json",
+              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\MyBGList\\MyBGList\\appsettings.Staging.json",
+              "RelativeToolTip": "MyBGList\\appsettings.Staging.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-26T02:19:31.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\MyBGList\\MyBGList\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MyBGList\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\MyBGList\\MyBGList\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MyBGList\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-25T23:20:11.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BoardGamesController.cs",
+              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\MyBGList\\MyBGList\\Controllers\\BoardGamesController.cs",
+              "RelativeDocumentMoniker": "MyBGList\\Controllers\\BoardGamesController.cs",
+              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\MyBGList\\MyBGList\\Controllers\\BoardGamesController.cs",
+              "RelativeToolTip": "MyBGList\\Controllers\\BoardGamesController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T01:20:43.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BoardGame.cs",
+              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\MyBGList\\MyBGList\\BoardGame.cs",
+              "RelativeDocumentMoniker": "MyBGList\\BoardGame.cs",
+              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\MyBGList\\MyBGList\\BoardGame.cs",
+              "RelativeToolTip": "MyBGList\\BoardGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T01:18:56.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\MyBGList\\MyBGList\\Program.cs",
+              "RelativeDocumentMoniker": "MyBGList\\Program.cs",
+              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\MyBGList\\MyBGList\\Program.cs",
+              "RelativeToolTip": "MyBGList\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T22:01:27.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\MyBGList\\MyBGList\\appsettings.json",
+              "RelativeDocumentMoniker": "MyBGList\\appsettings.json",
+              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\MyBGList\\MyBGList\\appsettings.json",
+              "RelativeToolTip": "MyBGList\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-25T23:04:12.783Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
