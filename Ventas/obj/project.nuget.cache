@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "Iokbvic8CZw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Eden\\Desktop\\APIRest\\Ventas\\Ventas.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Eden\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\Eden\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.3\\microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
+    "C:\\Users\\Eden\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\Eden\\.nuget\\packages\\mongodb.bson\\3.6.0\\mongodb.bson.3.6.0.nupkg.sha512",
+    "C:\\Users\\Eden\\.nuget\\packages\\mongodb.driver\\3.6.0\\mongodb.driver.3.6.0.nupkg.sha512",
+    "C:\\Users\\Eden\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
+    "C:\\Users\\Eden\\.nuget\\packages\\snappier\\1.0.0\\snappier.1.0.0.nupkg.sha512",
+    "C:\\Users\\Eden\\.nuget\\packages\\zstdsharp.port\\0.7.3\\zstdsharp.port.0.7.3.nupkg.sha512"
+  ],
+  "logs": []
+}

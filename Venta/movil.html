@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de Ventas vista Móvil</title>
+</head>
+
+<body>
+    <h1>Carga tus datos</h1>
+    <!--form-1-->
+    <form id="form-1">
+        <input id="btn-cargar-datos" type="file">
+        <h3>Periodo</h3>
+        <select name="selector-periodo" id="selector-periodo">
+            <option value="mes" selected>Mensual</option>
+            <option value="trimestre">Trimestral</option>
+            <option value="global">Anual</option>
+        </select>
+        <select name="selector-tiempo" id="selector-tiempo">
+            <option value="1">Enero</option>
+            <option value="2">Febrero</option>
+            <option value="3">Marzo</option>
+            <option value="4">Abril</option>
+            <option value="5">Mayo</option>
+            <option value="6">Junio</option>
+            <option value="7">Julio</option>
+            <option value="8">Agosto</option>
+            <option value="9">Septiembre</option>
+            <option value="10">Octubre</option>
+            <option value="11">Noviembre</option>
+            <option value="12">Diciembre</option>
+        </select>
+        <select name="selector-tipo" id="selector-tipo">
+            <option value="valor">Valor</option>
+            <option value="cantidad">Cantidad</option>
+        </select>
+        <select name="selector-estado" id="selector-estado">
+            <option value="ambos">Ambos</option>
+            <option value="true">Mejores</option>
+            <option value="false">Peores</option>
+        </select>
+        <button id="btn-enviar-datos">Recuperar Datos</button>
+    </form>
+
+    <section>
+        <h2>Productos con mayor cantidad de ventas</h2>
+        <div id="productos-cantidad"></div>
+        <h2>Productos con mayor valor de ventas</h2>
+        <div id="productos-valor"></div>
+    </section>
+
+
+
+
+    <template id="template-mes">
+        <option value="1">Enero</option>
+        <option value="2">Febrero</option>
+        <option value="3">Marzo</option>
+        <option value="4">Abril</option>
+        <option value="5">Mayo</option>
+        <option value="6">Junio</option>
+        <option value="7">Julio</option>
+        <option value="8">Agosto</option>
+        <option value="9">Septiembre</option>
+        <option value="10">Octubre</option>
+        <option value="11">Noviembre</option>
+        <option value="12">Diciembre</option>
+    </template>
+
+    <template id="template-trimestre">
+        <option value="1">Primer Trimestre</option>
+        <option value="2">Segundo Trimesre</option>
+        <option value="3">Tercer Trimestre</option>
+    </template>
+
+    <template id="template-global">
+        <option value="1">Anual</option>
+    </template>
+    <script src="script/api_ventas.js" type="module"></script>
+</body>
+
+</html>

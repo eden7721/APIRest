@@ -1,0 +1,230 @@
+[
+  {
+    "ContainingType": "Ventas.Controllers.VentasController",
+    "Method": "Get",
+    "RelativePath": "Ventas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Ventas.Models.Venta, Ventas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Ventas.Controllers.VentasController",
+    "Method": "Post",
+    "RelativePath": "Ventas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "venta",
+        "Type": "Ventas.Models.Venta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ventas.Controllers.VentasController",
+    "Method": "GetTopThreeGlobalForAmount",
+    "RelativePath": "Ventas/globalcantidad/{state}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "state",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Ventas.Models.VentaCantidad, Ventas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Ventas.Controllers.VentasController",
+    "Method": "GetTopThreeGlobalForValue",
+    "RelativePath": "Ventas/globalvalor/{state}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "state",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Ventas.Models.VentaCantidad, Ventas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Ventas.Controllers.VentasController",
+    "Method": "GetTopThreeMonthForAmount",
+    "RelativePath": "Ventas/mescantidad/{month}/{state}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "month",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "state",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Ventas.Models.VentaCantidad, Ventas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Ventas.Controllers.VentasController",
+    "Method": "GetTopThreeMonthForValue",
+    "RelativePath": "Ventas/mesvalor/{month}/{state}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "month",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "state",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Ventas.Models.VentaCantidad, Ventas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Ventas.Controllers.VentasController",
+    "Method": "PostMultiple",
+    "RelativePath": "Ventas/multiple",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ventas",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Ventas.Models.Venta, Ventas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ventas.Controllers.VentasController",
+    "Method": "GetTopThreeQuarterForAmount",
+    "RelativePath": "Ventas/trimestrecantidad/{quarter}/{state}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "quarter",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "state",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Ventas.Models.VentaCantidad, Ventas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Ventas.Controllers.VentasController",
+    "Method": "GetTopThreeQuarterForValue",
+    "RelativePath": "Ventas/trimestrevalor/{quarter}/{state}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "quarter",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "state",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Ventas.Models.VentaMonto, Ventas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
