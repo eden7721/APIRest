@@ -122,12 +122,20 @@
         }
       }
     },
-    "/Ventas/mescantidad/{month}/{state}": {
+    "/Ventas/mes/{tipo}/{month}/{state}": {
       "get": {
         "tags": [
           "Ventas"
         ],
         "parameters": [
+          {
+            "name": "tipo",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "boolean"
+            }
+          },
           {
             "name": "month",
             "in": "path",
@@ -158,7 +166,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/VentaCantidad"
+                    "$ref": "#/components/schemas/VentaTipo"
                   }
                 }
               },
@@ -166,7 +174,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/VentaCantidad"
+                    "$ref": "#/components/schemas/VentaTipo"
                   }
                 }
               },
@@ -174,7 +182,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/VentaCantidad"
+                    "$ref": "#/components/schemas/VentaTipo"
                   }
                 }
               }
@@ -183,12 +191,20 @@
         }
       }
     },
-    "/Ventas/trimestrecantidad/{quarter}/{state}": {
+    "/Ventas/trimestre/{tipo}/{quarter}/{state}": {
       "get": {
         "tags": [
           "Ventas"
         ],
         "parameters": [
+          {
+            "name": "tipo",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "boolean"
+            }
+          },
           {
             "name": "quarter",
             "in": "path",
@@ -219,7 +235,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/VentaCantidad"
+                    "$ref": "#/components/schemas/VentaTipo"
                   }
                 }
               },
@@ -227,7 +243,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/VentaCantidad"
+                    "$ref": "#/components/schemas/VentaTipo"
                   }
                 }
               },
@@ -235,7 +251,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/VentaCantidad"
+                    "$ref": "#/components/schemas/VentaTipo"
                   }
                 }
               }
@@ -244,14 +260,86 @@
         }
       }
     },
-    "/Ventas/mesvalor/{month}/{state}": {
+    "/Ventas/global/{tipo}/{state}": {
       "get": {
         "tags": [
           "Ventas"
         ],
         "parameters": [
           {
-            "name": "month",
+            "name": "tipo",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "state",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "boolean"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VentaTipo"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VentaTipo"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VentaTipo"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Ventas/categoria/{periodo}/{tipo}/{tiempo}/{state}": {
+      "get": {
+        "tags": [
+          "Ventas"
+        ],
+        "parameters": [
+          {
+            "name": "periodo",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "tipo",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "tiempo",
             "in": "path",
             "required": true,
             "schema": {
@@ -280,7 +368,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/VentaCantidad"
+                    "$ref": "#/components/schemas/VentaCategoria"
                   }
                 }
               },
@@ -288,7 +376,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/VentaCantidad"
+                    "$ref": "#/components/schemas/VentaCategoria"
                   }
                 }
               },
@@ -296,164 +384,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/VentaCantidad"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/Ventas/trimestrevalor/{quarter}/{state}": {
-      "get": {
-        "tags": [
-          "Ventas"
-        ],
-        "parameters": [
-          {
-            "name": "quarter",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "pattern": "^-?(?:0|[1-9]\\d*)$",
-              "type": [
-                "integer",
-                "string"
-              ],
-              "format": "int32"
-            }
-          },
-          {
-            "name": "state",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "boolean"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/VentaMonto"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/VentaMonto"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/VentaMonto"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/Ventas/globalcantidad/{state}": {
-      "get": {
-        "tags": [
-          "Ventas"
-        ],
-        "parameters": [
-          {
-            "name": "state",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "boolean"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/VentaCantidad"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/VentaCantidad"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/VentaCantidad"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/Ventas/globalvalor/{state}": {
-      "get": {
-        "tags": [
-          "Ventas"
-        ],
-        "parameters": [
-          {
-            "name": "state",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "boolean"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/VentaCantidad"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/VentaCantidad"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/VentaCantidad"
+                    "$ref": "#/components/schemas/VentaCategoria"
                   }
                 }
               }
@@ -513,13 +444,10 @@
           }
         }
       },
-      "VentaCantidad": {
+      "VentaCategoria": {
         "type": "object",
         "properties": {
-          "producto": {
-            "type": "string"
-          },
-          "categoria": {
+          "nombreCategoria": {
             "type": "string"
           },
           "cantidadTotalVendida": {
@@ -529,10 +457,18 @@
               "string"
             ],
             "format": "int32"
+          },
+          "valorVentaTotal": {
+            "pattern": "^-?(?:0|[1-9]\\d*)(?:\\.\\d+)?$",
+            "type": [
+              "number",
+              "string"
+            ],
+            "format": "double"
           }
         }
       },
-      "VentaMonto": {
+      "VentaTipo": {
         "type": "object",
         "properties": {
           "producto": {

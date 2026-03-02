@@ -1,0 +1,9 @@
+h1,
+h2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.contenedor-producto {
+    height: 100%;
+}

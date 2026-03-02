@@ -37,12 +37,27 @@
   },
   {
     "ContainingType": "Ventas.Controllers.VentasController",
-    "Method": "GetTopThreeGlobalForAmount",
-    "RelativePath": "Ventas/globalcantidad/{state}",
+    "Method": "GetTopThreeNoGlobal",
+    "RelativePath": "Ventas/categoria/{periodo}/{tipo}/{tiempo}/{state}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
+      {
+        "Name": "periodo",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "tipo",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      },
+      {
+        "Name": "tiempo",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
       {
         "Name": "state",
         "Type": "System.Boolean",
@@ -51,7 +66,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Ventas.Models.VentaCantidad, Ventas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Ventas.Models.VentaCategoria, Ventas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -63,12 +78,17 @@
   },
   {
     "ContainingType": "Ventas.Controllers.VentasController",
-    "Method": "GetTopThreeGlobalForValue",
-    "RelativePath": "Ventas/globalvalor/{state}",
+    "Method": "GetTopThreeGlobal",
+    "RelativePath": "Ventas/global/{tipo}/{state}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
+      {
+        "Name": "tipo",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      },
       {
         "Name": "state",
         "Type": "System.Boolean",
@@ -77,7 +97,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Ventas.Models.VentaCantidad, Ventas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Ventas.Models.VentaTipo, Ventas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -89,12 +109,17 @@
   },
   {
     "ContainingType": "Ventas.Controllers.VentasController",
-    "Method": "GetTopThreeMonthForAmount",
-    "RelativePath": "Ventas/mescantidad/{month}/{state}",
+    "Method": "GetTopThreeMonth",
+    "RelativePath": "Ventas/mes/{tipo}/{month}/{state}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
+      {
+        "Name": "tipo",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      },
       {
         "Name": "month",
         "Type": "System.Int32",
@@ -108,38 +133,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Ventas.Models.VentaCantidad, Ventas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Ventas.Controllers.VentasController",
-    "Method": "GetTopThreeMonthForValue",
-    "RelativePath": "Ventas/mesvalor/{month}/{state}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "month",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "state",
-        "Type": "System.Boolean",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Ventas.Models.VentaCantidad, Ventas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Ventas.Models.VentaTipo, Ventas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -167,12 +161,17 @@
   },
   {
     "ContainingType": "Ventas.Controllers.VentasController",
-    "Method": "GetTopThreeQuarterForAmount",
-    "RelativePath": "Ventas/trimestrecantidad/{quarter}/{state}",
+    "Method": "GetTopThreeQuarter",
+    "RelativePath": "Ventas/trimestre/{tipo}/{quarter}/{state}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
+      {
+        "Name": "tipo",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      },
       {
         "Name": "quarter",
         "Type": "System.Int32",
@@ -186,38 +185,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Ventas.Models.VentaCantidad, Ventas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Ventas.Controllers.VentasController",
-    "Method": "GetTopThreeQuarterForValue",
-    "RelativePath": "Ventas/trimestrevalor/{quarter}/{state}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "quarter",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "state",
-        "Type": "System.Boolean",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Ventas.Models.VentaMonto, Ventas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Ventas.Models.VentaTipo, Ventas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

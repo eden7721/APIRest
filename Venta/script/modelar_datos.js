@@ -1,4 +1,4 @@
-import { recuperarDatos } from "./recuperar_datos.js";
+import { datos } from "./recuperar_datos.js";
 
 const d = document,
     $form = d.getElementById("form-1"),
@@ -7,12 +7,12 @@ const d = document,
     $selectorPeriodo = d.getElementById("selector-periodo"),
     $selectorTiempo = d.getElementById("selector-tiempo"),
     $selectorTipo = d.getElementById("selector-tipo"),
-    $selectorEstado = d.getElementById("selector-estado");
+    $productos = d.getElementById("productos-obtenidos");
 
-d.addEventListener("click", e => {
+d.addEventListener("click",e => {
     if(e.target.matches("#btn-enviar-datos")){
         e.preventDefault();
-        recuperarDatos($selectorPeriodo.value, $selectorTiempo.value, $selectorTipo.value, $selectorEstado.value);
+        datos($selectorPeriodo.value, $selectorTipo.value, $selectorTiempo.value);
     }
 });
 d.addEventListener("change", e => {

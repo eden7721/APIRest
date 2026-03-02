@@ -7,7 +7,7 @@ namespace Ventas.Repositories
 { 
     public class VentasRepository
     {
-        private readonly static string _connString = "mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTime\r\noutMS=2000&appName=mongosh+2.7.0";
+        private readonly static string _connString = "mongodb://192.168.1.85:27017/?directConnection=true&serverSelectionTime\r\noutMS=2000&appName=mongosh+2.7.0";
 
         public async Task<IEnumerable<Venta>> GetVentas()
         {

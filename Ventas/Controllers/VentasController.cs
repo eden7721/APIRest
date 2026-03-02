@@ -41,50 +41,69 @@ namespace Ventas.Controllers
         }
 
 
-        [HttpGet("mescantidad/{month}/{state}")]
-        public async Task<ActionResult<IEnumerable<VentaCantidad>>> GetTopThreeMonthForAmount(int month, bool state)
+        [HttpGet("mes/{tipo}/{month}/{state}")]
+        public async Task<ActionResult<IEnumerable<VentaTipo>>> GetTopThreeMonth(bool tipo, int month, bool state)
         {
-            var tres = await _service.GetThreeProductsMonthForAmount(month, state);
-            return Ok(tres);
+            if(tipo)
+            {
+                var tres = await _service.GetThreeProductsMonthForAmount(month, state);
+                return Ok(tres);
+            }
+            else
+            {
+                var tres = await _service.GetThreeProductsMonthForValue(month, state);
+                return Ok(tres);
+            }
+        }
+        [HttpGet("trimestre/{tipo}/{quarter}/{state}")]
+        public async Task<ActionResult<IEnumerable<VentaTipo>>> GetTopThreeQuarter(bool tipo, int quarter, bool state)
+        {
+            if(tipo)
+            {
+                var tres = await _service.GetThreeProductsQuarterForAmount(quarter, state);
+                return Ok(tres);
+            }
+            else
+            {
+                var tres = await _service.GetThreeProductsQuarterForValue(quarter, state);
+                return (Ok(tres));
+            }
+        }
+        [HttpGet("global/{tipo}/{state}")]
+        public async Task<ActionResult<IEnumerable<VentaTipo>>> GetTopThreeGlobal(bool tipo, bool state)
+        {
+            if (tipo)
+            {
+                var tres = await _service.GetThreeProductsGlobalForAmount(state);
+                return (Ok(tres));
+            }
+            else
+            {
+                var tres = await _service.GetThreeProductsGlobalForValue(state);
+                return (Ok(tres));
+            }
         }
 
 
-        [HttpGet("trimestrecantidad/{quarter}/{state}")]
-        public async Task<ActionResult<IEnumerable<VentaCantidad>>> GetTopThreeQuarterForAmount(int quarter, bool state)
+        [HttpGet("categoria/{periodo}/{tipo}/{tiempo}/{state}")]
+        public async Task<ActionResult<IEnumerable<VentaCategoria>>> GetTopThreeNoGlobal(string periodo, bool tipo, int tiempo, bool state)
         {
-            var tres = await _service.GetThreeProductsQuarterForAmount(quarter, state);
-            return Ok(tres);
+            if(periodo == "mes")
+            {
+                var tres = tipo ? await _service.GetProductsCategoryMonthForAmount(tiempo, state) : await _service.GetProductsCategoryMonthForValue(tiempo, state);
+                return (Ok(tres));
+            }
+            else if(periodo == "trimestre")
+            {
+                var tres = tipo ? await _service.GetProductsCategoryQuarterForAmount(tiempo, state) : await _service.GetProductsCategoryQuarterForValue(tiempo, state);
+                return (Ok(tres));
+            }
+            else
+            {
+                var tres = tipo ? await _service.GetProductsCategoryGlobalForAmount(state) : await _service.GetProductsCategoryGlobalForValue(state);
+                return (Ok(tres));
+            }
         }
 
-
-        [HttpGet("mesvalor/{month}/{state}")]
-        public async Task<ActionResult<IEnumerable<VentaCantidad>>> GetTopThreeMonthForValue(int month, bool state)
-        {
-            var tres = await _service.GetThreeProductsMonthForValue(month, state);
-            return (Ok(tres));
-        }
-
-        [HttpGet("trimestrevalor/{quarter}/{state}")]
-        public async Task<ActionResult<IEnumerable<VentaMonto>>> GetTopThreeQuarterForValue(int quarter, bool state)
-        {
-            var tres = await _service.GetThreeProductsQuarterForValue(quarter, state);
-            return (Ok(tres));
-        }
-
-
-        [HttpGet("globalcantidad/{state}")]
-        public async Task<ActionResult<IEnumerable<VentaCantidad>>> GetTopThreeGlobalForAmount(bool state)
-        {
-            var tres = await _service.GetThreeProducstGlobalForAmount(state);
-            return (Ok(tres));
-        }
-
-
-        [HttpGet("globalvalor/{state}")]
-        public async Task<ActionResult<IEnumerable<VentaCantidad>>> GetTopThreeGlobalForValue(bool state)
-        {
-            var tres = await _service.GetThreeProducstGlobalForValue(state);
-            return (Ok(tres));
-        }
     }
 }
