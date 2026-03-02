@@ -1,34 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Adan\\Desktop\\asp\\Ventas\\",
+  "WorkspaceRootPath": "C:\\Users\\Eden\\Desktop\\APIRest\\Ventas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|c:\\users\\adan\\desktop\\asp\\ventas\\services\\ventasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|c:\\users\\eden\\desktop\\apirest\\ventas\\services\\ventasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|solutionrelative:services\\ventasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|c:\\users\\adan\\desktop\\asp\\ventas\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|solutionrelative:controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|c:\\users\\eden\\desktop\\apirest\\ventas\\wwwroot\\script\\recuperar_datos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|solutionrelative:wwwroot\\script\\recuperar_datos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|c:\\users\\adan\\desktop\\asp\\ventas\\models\\ventacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|c:\\users\\eden\\desktop\\apirest\\ventas\\wwwroot\\script\\recuperar_registros.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|solutionrelative:wwwroot\\script\\recuperar_registros.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|c:\\users\\eden\\desktop\\apirest\\ventas\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|c:\\users\\eden\\desktop\\apirest\\ventas\\models\\ventacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|solutionrelative:models\\ventacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|c:\\users\\adan\\desktop\\asp\\ventas\\repositories\\ventasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|c:\\users\\eden\\desktop\\apirest\\ventas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|c:\\users\\eden\\desktop\\apirest\\ventas\\repositories\\ventasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|solutionrelative:repositories\\ventasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|c:\\users\\adan\\desktop\\asp\\ventas\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|c:\\users\\eden\\desktop\\apirest\\ventas\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|solutionrelative:controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|c:\\users\\eden\\desktop\\apirest\\ventas\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|solutionrelative:models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|c:\\users\\adan\\desktop\\asp\\ventas\\models\\ventatipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|c:\\users\\eden\\desktop\\apirest\\ventas\\models\\ventatipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|solutionrelative:models\\ventatipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|c:\\users\\adan\\desktop\\asp\\ventas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E2A1FDA-A906-7CE3-7FDC-42B7014CDA1E}|Ventas.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,15 +50,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "recuperar_registros.js",
+              "DocumentMoniker": "C:\\Users\\Eden\\Desktop\\APIRest\\Ventas\\wwwroot\\script\\recuperar_registros.js",
+              "RelativeDocumentMoniker": "wwwroot\\script\\recuperar_registros.js",
+              "ToolTip": "C:\\Users\\Eden\\Desktop\\APIRest\\Ventas\\wwwroot\\script\\recuperar_registros.js",
+              "RelativeToolTip": "wwwroot\\script\\recuperar_registros.js",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAcAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-02T15:20:53.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "recuperar_datos.js",
+              "DocumentMoniker": "C:\\Users\\Eden\\Desktop\\APIRest\\Ventas\\wwwroot\\script\\recuperar_datos.js",
+              "RelativeDocumentMoniker": "wwwroot\\script\\recuperar_datos.js",
+              "ToolTip": "C:\\Users\\Eden\\Desktop\\APIRest\\Ventas\\wwwroot\\script\\recuperar_datos.js",
+              "RelativeToolTip": "wwwroot\\script\\recuperar_datos.js",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-02T15:20:24.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Eden\\Desktop\\APIRest\\Ventas\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Eden\\Desktop\\APIRest\\Ventas\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-02T15:10:19.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "VentaCategoria.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\asp\\Ventas\\Models\\VentaCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\Eden\\Desktop\\APIRest\\Ventas\\Models\\VentaCategoria.cs",
               "RelativeDocumentMoniker": "Models\\VentaCategoria.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\asp\\Ventas\\Models\\VentaCategoria.cs",
+              "ToolTip": "C:\\Users\\Eden\\Desktop\\APIRest\\Ventas\\Models\\VentaCategoria.cs",
               "RelativeToolTip": "Models\\VentaCategoria.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -57,79 +108,77 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "VentasService.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\asp\\Ventas\\Services\\VentasService.cs",
+              "DocumentMoniker": "C:\\Users\\Eden\\Desktop\\APIRest\\Ventas\\Services\\VentasService.cs",
               "RelativeDocumentMoniker": "Services\\VentasService.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\asp\\Ventas\\Services\\VentasService.cs",
+              "ToolTip": "C:\\Users\\Eden\\Desktop\\APIRest\\Ventas\\Services\\VentasService.cs",
               "RelativeToolTip": "Services\\VentasService.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAuwLkAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAkwLkAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-27T21:28:57.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "VentasController.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\asp\\Ventas\\Controllers\\VentasController.cs",
+              "DocumentMoniker": "C:\\Users\\Eden\\Desktop\\APIRest\\Ventas\\Controllers\\VentasController.cs",
               "RelativeDocumentMoniker": "Controllers\\VentasController.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\asp\\Ventas\\Controllers\\VentasController.cs",
+              "ToolTip": "C:\\Users\\Eden\\Desktop\\APIRest\\Ventas\\Controllers\\VentasController.cs",
               "RelativeToolTip": "Controllers\\VentasController.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAcwDkAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAuwFwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-27T21:32:21.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "VentaTipo.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\asp\\Ventas\\Models\\VentaTipo.cs",
+              "DocumentMoniker": "C:\\Users\\Eden\\Desktop\\APIRest\\Ventas\\Models\\VentaTipo.cs",
               "RelativeDocumentMoniker": "Models\\VentaTipo.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\asp\\Ventas\\Models\\VentaTipo.cs",
+              "ToolTip": "C:\\Users\\Eden\\Desktop\\APIRest\\Ventas\\Models\\VentaTipo.cs",
               "RelativeToolTip": "Models\\VentaTipo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T03:38:05.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-28T03:38:05.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\asp\\Ventas\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Eden\\Desktop\\APIRest\\Ventas\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\asp\\Ventas\\Program.cs",
+              "ToolTip": "C:\\Users\\Eden\\Desktop\\APIRest\\Ventas\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-27T21:27:46.582Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "VentasRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\asp\\Ventas\\Repositories\\VentasRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Eden\\Desktop\\APIRest\\Ventas\\Repositories\\VentasRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\VentasRepository.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\asp\\Ventas\\Repositories\\VentasRepository.cs",
+              "ToolTip": "C:\\Users\\Eden\\Desktop\\APIRest\\Ventas\\Repositories\\VentasRepository.cs",
               "RelativeToolTip": "Repositories\\VentasRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwAkAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-27T21:10:05.852Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Venta.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\asp\\Ventas\\Models\\Venta.cs",
+              "DocumentMoniker": "C:\\Users\\Eden\\Desktop\\APIRest\\Ventas\\Models\\Venta.cs",
               "RelativeDocumentMoniker": "Models\\Venta.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\asp\\Ventas\\Models\\Venta.cs",
+              "ToolTip": "C:\\Users\\Eden\\Desktop\\APIRest\\Ventas\\Models\\Venta.cs",
               "RelativeToolTip": "Models\\Venta.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T20:45:06.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T20:45:06.165Z"
             }
           ]
         }

@@ -1,104 +1,116 @@
 [
     {
+        "id": "69a2255a6d6dab6fbf20d6bf",
         "producto": "audifono_1",
         "categoria": "audifono",
         "cliente": "cliente_20",
         "precio_unitario": 90,
         "cantidad": 2,
         "total_venta": 180,
-        "fecha_compra": "2025-04-01T05:00:00Z"
+        "fecha_compra": "2025-02-01T05:00:00Z"
     },
     {
+        "id": "69a225776d6dab6fbf20d6c0",
         "producto": "audifono_2",
         "categoria": "audifono",
         "cliente": "cliente_20",
         "precio_unitario": 100,
         "cantidad": 1,
         "total_venta": 100,
-        "fecha_compra": "2025-03-15T05:00:00Z"
+        "fecha_compra": "2025-11-15T05:00:00Z"
     },
     {
+        "id": "69a2258c6d6dab6fbf20d6c1",
         "producto": "audifono_3",
         "categoria": "audifono",
         "cliente": "cliente_19",
         "precio_unitario": 70,
         "cantidad": 3,
         "total_venta": 210,
-        "fecha_compra": "2025-02-12T05:00:00Z"
+        "fecha_compra": "2025-03-12T05:00:00Z"
     },
     {
+        "id": "69a225ea6d6dab6fbf20d6c2",
         "producto": "mouse_1",
         "categoria": "mouse",
         "cliente": "cliente_18",
         "precio_unitario": 25,
         "cantidad": 5,
         "total_venta": 125,
-        "fecha_compra": "2025-01-09T05:00:00Z"
+        "fecha_compra": "2025-08-09T05:00:00Z"
     },
     {
+        "id": "69a226016d6dab6fbf20d6c3",
         "producto": "mouse_2",
         "categoria": "mouse",
         "cliente": "cliente_17",
         "precio_unitario": 20,
         "cantidad": 3,
         "total_venta": 60,
-        "fecha_compra": "2025-12-21T05:00:00Z"
+        "fecha_compra": "2025-10-21T05:00:00Z"
     },
     {
+        "id": "69a2267f6d6dab6fbf20d6c4",
         "producto": "mouse_3",
         "categoria": "mouse",
         "cliente": "cliente_16",
         "precio_unitario": 30,
         "cantidad": 1,
         "total_venta": 30,
-        "fecha_compra": "2025-11-17T05:00:00Z"
+        "fecha_compra": "2025-04-17T05:00:00Z"
     },
     {
+        "id": "69a226ad6d6dab6fbf20d6c5",
         "producto": "teclado_1",
         "categoria": "teclado",
         "cliente": "cliente_15",
         "precio_unitario": 40,
         "cantidad": 2,
         "total_venta": 80,
-        "fecha_compra": "2025-10-12T05:00:00Z"
+        "fecha_compra": "2025-07-12T05:00:00Z"
     },
     {
+        "id": "69a226c46d6dab6fbf20d6c6",
         "producto": "teclado_2",
         "categoria": "teclado",
         "cliente": "cliente_14",
         "precio_unitario": 45,
         "cantidad": 1,
         "total_venta": 45,
-        "fecha_compra": "2025-09-29T05:00:00Z"
+        "fecha_compra": "2025-10-31T05:00:00Z"
     },
     {
+        "id": "69a22b186d6dab6fbf20d6c7",
         "producto": "teclado_3",
         "categoria": "teclado",
         "cliente": "cliente_13",
         "precio_unitario": 75,
         "cantidad": 2,
         "total_venta": 150,
-        "fecha_compra": "2025-08-10T05:00:00Z"
+        "fecha_compra": "2025-05-10T05:00:00Z"
     },
     {
+        "id": "69a26a14a57d0331b30f0af9",
         "producto": "teclado_3",
         "categoria": "teclado",
         "cliente": "cliente_2",
         "precio_unitario": 75,
         "cantidad": 4,
         "total_venta": 300,
-        "fecha_compra": "2025-07-10T05:00:00Z"
+        "fecha_compra": "2025-05-10T05:00:00Z"
     },
     {
+        "id": "69a26ce06e5f93fd7d5d9141",
         "producto": "teclado_1",
         "categoria": "teclado",
         "cliente": "cliente_5",
         "precio_unitario": 40,
         "cantidad": 2,
         "total_venta": 120,
-        "fecha_compra": "2025-06-02T05:00:00Z"
+        "fecha_compra": "2025-05-02T05:00:00Z"
     },
     {
+        "id": "69a31ca17717aa0c478e5617",
         "producto": "teclado_3",
         "categoria": "teclado",
         "cliente": "cliente_11",
@@ -108,24 +120,247 @@
         "fecha_compra": "2025-05-30T05:00:00Z"
     },
     {
+        "id": "69a348e41a040f797582a3f9",
         "producto": "laptop_2",
         "categoria": "laptop",
         "cliente": "cliente_10",
         "precio_unitario": 800,
         "cantidad": 1,
         "total_venta": 800,
-        "fecha_compra": "2025-04-20T05:00:00Z"
+        "fecha_compra": "2025-05-20T05:00:00Z"
     },
     {
+        "id": "69a35ac9257a4a3ee944de01",
         "producto": "teclado_1",
         "categoria": "teclado",
         "cliente": "cliente_7",
         "precio_unitario": 40,
         "cantidad": 2,
         "total_venta": 80,
-        "fecha_compra": "2025-03-02T05:00:00Z"
+        "fecha_compra": "2025-01-02T05:00:00Z"
     },
     {
+        "id": "69a35ad8257a4a3ee944de02",
+        "producto": "teclado_1",
+        "categoria": "teclado",
+        "cliente": "cliente_7",
+        "precio_unitario": 40,
+        "cantidad": 2,
+        "total_venta": 80,
+        "fecha_compra": "2025-01-02T05:00:00Z"
+    },
+    {
+        "id": "69a35afe257a4a3ee944de03",
+        "producto": "teclado_1",
+        "categoria": "teclado",
+        "cliente": "cliente_7",
+        "precio_unitario": 40,
+        "cantidad": 2,
+        "total_venta": 80,
+        "fecha_compra": "2025-01-02T05:00:00Z"
+    },
+    {
+        "id": "69a35b00257a4a3ee944de04",
+        "producto": "teclado_1",
+        "categoria": "teclado",
+        "cliente": "cliente_7",
+        "precio_unitario": 40,
+        "cantidad": 2,
+        "total_venta": 80,
+        "fecha_compra": "2025-01-02T05:00:00Z"
+    },
+    {
+        "id": "69a35b80257a4a3ee944de05",
+        "producto": "teclado_1",
+        "categoria": "teclado",
+        "cliente": "cliente_7",
+        "precio_unitario": 40,
+        "cantidad": 2,
+        "total_venta": 80,
+        "fecha_compra": "2025-01-02T05:00:00Z"
+    },
+    {
+        "id": "69a394a0b04b4c8c3e98d465",
+        "producto": "teclado_1",
+        "categoria": "teclado",
+        "cliente": "cliente_7",
+        "precio_unitario": 40,
+        "cantidad": 2,
+        "total_venta": 80,
+        "fecha_compra": "2025-07-02T05:00:00Z"
+    },
+    {
+        "id": "69a394c2b04b4c8c3e98d466",
+        "producto": "audifono_1",
+        "categoria": "audifono",
+        "cliente": "cliente_20",
+        "precio_unitario": 90,
+        "cantidad": 2,
+        "total_venta": 180,
+        "fecha_compra": "2025-02-01T05:00:00Z"
+    },
+    {
+        "id": "69a394c2b04b4c8c3e98d467",
+        "producto": "audifono_2",
+        "categoria": "audifono",
+        "cliente": "cliente_20",
+        "precio_unitario": 100,
+        "cantidad": 1,
+        "total_venta": 100,
+        "fecha_compra": "2025-11-15T05:00:00Z"
+    },
+    {
+        "id": "69a394c2b04b4c8c3e98d468",
+        "producto": "audifono_3",
+        "categoria": "audifono",
+        "cliente": "cliente_19",
+        "precio_unitario": 70,
+        "cantidad": 3,
+        "total_venta": 210,
+        "fecha_compra": "2025-03-12T05:00:00Z"
+    },
+    {
+        "id": "69a394c2b04b4c8c3e98d469",
+        "producto": "mouse_1",
+        "categoria": "mouse",
+        "cliente": "cliente_18",
+        "precio_unitario": 25,
+        "cantidad": 5,
+        "total_venta": 125,
+        "fecha_compra": "2025-08-09T05:00:00Z"
+    },
+    {
+        "id": "69a394c2b04b4c8c3e98d46a",
+        "producto": "mouse_2",
+        "categoria": "mouse",
+        "cliente": "cliente_17",
+        "precio_unitario": 20,
+        "cantidad": 3,
+        "total_venta": 60,
+        "fecha_compra": "2025-10-21T05:00:00Z"
+    },
+    {
+        "id": "69a394c2b04b4c8c3e98d46b",
+        "producto": "mouse_3",
+        "categoria": "mouse",
+        "cliente": "cliente_16",
+        "precio_unitario": 30,
+        "cantidad": 1,
+        "total_venta": 30,
+        "fecha_compra": "2025-04-17T05:00:00Z"
+    },
+    {
+        "id": "69a394c2b04b4c8c3e98d46c",
+        "producto": "teclado_1",
+        "categoria": "teclado",
+        "cliente": "cliente_15",
+        "precio_unitario": 40,
+        "cantidad": 2,
+        "total_venta": 80,
+        "fecha_compra": "2025-07-12T05:00:00Z"
+    },
+    {
+        "id": "69a394c2b04b4c8c3e98d46d",
+        "producto": "teclado_2",
+        "categoria": "teclado",
+        "cliente": "cliente_14",
+        "precio_unitario": 45,
+        "cantidad": 1,
+        "total_venta": 45,
+        "fecha_compra": "2025-10-31T05:00:00Z"
+    },
+    {
+        "id": "69a394c2b04b4c8c3e98d46e",
+        "producto": "teclado_3",
+        "categoria": "teclado",
+        "cliente": "cliente_13",
+        "precio_unitario": 75,
+        "cantidad": 2,
+        "total_venta": 150,
+        "fecha_compra": "2025-05-10T05:00:00Z"
+    },
+    {
+        "id": "69a394c2b04b4c8c3e98d46f",
+        "producto": "teclado_3",
+        "categoria": "teclado",
+        "cliente": "cliente_2",
+        "precio_unitario": 75,
+        "cantidad": 4,
+        "total_venta": 300,
+        "fecha_compra": "2025-05-10T05:00:00Z"
+    },
+    {
+        "id": "69a394c2b04b4c8c3e98d470",
+        "producto": "teclado_1",
+        "categoria": "teclado",
+        "cliente": "cliente_5",
+        "precio_unitario": 40,
+        "cantidad": 2,
+        "total_venta": 120,
+        "fecha_compra": "2025-05-02T05:00:00Z"
+    },
+    {
+        "id": "69a394c2b04b4c8c3e98d471",
+        "producto": "teclado_3",
+        "categoria": "teclado",
+        "cliente": "cliente_11",
+        "precio_unitario": 75,
+        "cantidad": 1,
+        "total_venta": 75,
+        "fecha_compra": "2025-05-30T05:00:00Z"
+    },
+    {
+        "id": "69a394c2b04b4c8c3e98d472",
+        "producto": "laptop_2",
+        "categoria": "laptop",
+        "cliente": "cliente_10",
+        "precio_unitario": 800,
+        "cantidad": 1,
+        "total_venta": 800,
+        "fecha_compra": "2025-05-20T05:00:00Z"
+    },
+    {
+        "id": "69a394c2b04b4c8c3e98d473",
+        "producto": "teclado_1",
+        "categoria": "teclado",
+        "cliente": "cliente_7",
+        "precio_unitario": 40,
+        "cantidad": 2,
+        "total_venta": 80,
+        "fecha_compra": "2025-12-02T05:00:00Z"
+    },
+    {
+        "id": "69a394c2b04b4c8c3e98d474",
+        "producto": "teclado_1",
+        "categoria": "teclado",
+        "cliente": "cliente_7",
+        "precio_unitario": 40,
+        "cantidad": 2,
+        "total_venta": 80,
+        "fecha_compra": "2025-11-02T05:00:00Z"
+    },
+    {
+        "id": "69a394c2b04b4c8c3e98d475",
+        "producto": "teclado_1",
+        "categoria": "teclado",
+        "cliente": "cliente_7",
+        "precio_unitario": 40,
+        "cantidad": 2,
+        "total_venta": 80,
+        "fecha_compra": "2025-05-02T05:00:00Z"
+    },
+    {
+        "id": "69a3958cb04b4c8c3e98d476",
+        "producto": "teclado_1",
+        "categoria": "teclado",
+        "cliente": "cliente_7",
+        "precio_unitario": 40,
+        "cantidad": 2,
+        "total_venta": 80,
+        "fecha_compra": "2025-01-30T05:00:00Z"
+    },
+    {
+        "id": "69a395a6b04b4c8c3e98d477",
         "producto": "teclado_1",
         "categoria": "teclado",
         "cliente": "cliente_7",
@@ -135,6 +370,17 @@
         "fecha_compra": "2025-02-02T05:00:00Z"
     },
     {
+        "id": "69a395a6b04b4c8c3e98d478",
+        "producto": "teclado_1",
+        "categoria": "teclado",
+        "cliente": "cliente_7",
+        "precio_unitario": 40,
+        "cantidad": 2,
+        "total_venta": 80,
+        "fecha_compra": "2025-12-02T05:00:00Z"
+    },
+    {
+        "id": "69a395a6b04b4c8c3e98d479",
         "producto": "teclado_1",
         "categoria": "teclado",
         "cliente": "cliente_7",
@@ -142,5 +388,345 @@
         "cantidad": 2,
         "total_venta": 80,
         "fecha_compra": "2025-01-30T05:00:00Z"
+    },
+    {
+        "id": "69a39605b04b4c8c3e98d47a",
+        "producto": "audifono_1",
+        "categoria": "audifono",
+        "cliente": "cliente_20",
+        "precio_unitario": 90,
+        "cantidad": 2,
+        "total_venta": 180,
+        "fecha_compra": "2025-02-01T05:00:00Z"
+    },
+    {
+        "id": "69a39605b04b4c8c3e98d47b",
+        "producto": "audifono_2",
+        "categoria": "audifono",
+        "cliente": "cliente_20",
+        "precio_unitario": 100,
+        "cantidad": 1,
+        "total_venta": 100,
+        "fecha_compra": "2025-11-15T05:00:00Z"
+    },
+    {
+        "id": "69a39605b04b4c8c3e98d47c",
+        "producto": "audifono_3",
+        "categoria": "audifono",
+        "cliente": "cliente_19",
+        "precio_unitario": 70,
+        "cantidad": 3,
+        "total_venta": 210,
+        "fecha_compra": "2025-03-12T05:00:00Z"
+    },
+    {
+        "id": "69a39605b04b4c8c3e98d47d",
+        "producto": "mouse_1",
+        "categoria": "mouse",
+        "cliente": "cliente_18",
+        "precio_unitario": 25,
+        "cantidad": 5,
+        "total_venta": 125,
+        "fecha_compra": "2025-08-09T05:00:00Z"
+    },
+    {
+        "id": "69a39605b04b4c8c3e98d47e",
+        "producto": "mouse_2",
+        "categoria": "mouse",
+        "cliente": "cliente_17",
+        "precio_unitario": 20,
+        "cantidad": 3,
+        "total_venta": 60,
+        "fecha_compra": "2025-10-21T05:00:00Z"
+    },
+    {
+        "id": "69a39605b04b4c8c3e98d47f",
+        "producto": "mouse_3",
+        "categoria": "mouse",
+        "cliente": "cliente_16",
+        "precio_unitario": 30,
+        "cantidad": 1,
+        "total_venta": 30,
+        "fecha_compra": "2025-02-17T05:00:00Z"
+    },
+    {
+        "id": "69a39605b04b4c8c3e98d480",
+        "producto": "teclado_1",
+        "categoria": "teclado",
+        "cliente": "cliente_15",
+        "precio_unitario": 40,
+        "cantidad": 2,
+        "total_venta": 80,
+        "fecha_compra": "2025-07-12T05:00:00Z"
+    },
+    {
+        "id": "69a39605b04b4c8c3e98d481",
+        "producto": "teclado_2",
+        "categoria": "teclado",
+        "cliente": "cliente_14",
+        "precio_unitario": 45,
+        "cantidad": 1,
+        "total_venta": 45,
+        "fecha_compra": "2025-06-29T05:00:00Z"
+    },
+    {
+        "id": "69a39605b04b4c8c3e98d482",
+        "producto": "teclado_3",
+        "categoria": "teclado",
+        "cliente": "cliente_13",
+        "precio_unitario": 75,
+        "cantidad": 2,
+        "total_venta": 150,
+        "fecha_compra": "2025-12-10T05:00:00Z"
+    },
+    {
+        "id": "69a39605b04b4c8c3e98d483",
+        "producto": "teclado_3",
+        "categoria": "teclado",
+        "cliente": "cliente_2",
+        "precio_unitario": 75,
+        "cantidad": 4,
+        "total_venta": 300,
+        "fecha_compra": "2025-11-10T05:00:00Z"
+    },
+    {
+        "id": "69a39605b04b4c8c3e98d484",
+        "producto": "teclado_1",
+        "categoria": "teclado",
+        "cliente": "cliente_5",
+        "precio_unitario": 40,
+        "cantidad": 2,
+        "total_venta": 120,
+        "fecha_compra": "2025-03-02T05:00:00Z"
+    },
+    {
+        "id": "69a39605b04b4c8c3e98d485",
+        "producto": "teclado_3",
+        "categoria": "teclado",
+        "cliente": "cliente_11",
+        "precio_unitario": 75,
+        "cantidad": 1,
+        "total_venta": 75,
+        "fecha_compra": "2025-08-30T05:00:00Z"
+    },
+    {
+        "id": "69a39605b04b4c8c3e98d486",
+        "producto": "laptop_2",
+        "categoria": "laptop",
+        "cliente": "cliente_10",
+        "precio_unitario": 800,
+        "cantidad": 1,
+        "total_venta": 800,
+        "fecha_compra": "2025-01-20T05:00:00Z"
+    },
+    {
+        "id": "69a39605b04b4c8c3e98d487",
+        "producto": "teclado_1",
+        "categoria": "teclado",
+        "cliente": "cliente_7",
+        "precio_unitario": 40,
+        "cantidad": 2,
+        "total_venta": 80,
+        "fecha_compra": "2025-02-02T05:00:00Z"
+    },
+    {
+        "id": "69a39605b04b4c8c3e98d488",
+        "producto": "teclado_1",
+        "categoria": "teclado",
+        "cliente": "cliente_7",
+        "precio_unitario": 40,
+        "cantidad": 2,
+        "total_venta": 80,
+        "fecha_compra": "2025-06-02T05:00:00Z"
+    },
+    {
+        "id": "69a39605b04b4c8c3e98d489",
+        "producto": "teclado_1",
+        "categoria": "teclado",
+        "cliente": "cliente_7",
+        "precio_unitario": 40,
+        "cantidad": 2,
+        "total_venta": 80,
+        "fecha_compra": "2025-08-30T05:00:00Z"
+    },
+    {
+        "id": "69a3966cb04b4c8c3e98d48a",
+        "producto": "audifono_1",
+        "categoria": "audifono",
+        "cliente": "cliente_20",
+        "precio_unitario": 90,
+        "cantidad": 2,
+        "total_venta": 180,
+        "fecha_compra": "2025-04-01T05:00:00Z"
+    },
+    {
+        "id": "69a3966cb04b4c8c3e98d48b",
+        "producto": "audifono_2",
+        "categoria": "audifono",
+        "cliente": "cliente_20",
+        "precio_unitario": 100,
+        "cantidad": 1,
+        "total_venta": 100,
+        "fecha_compra": "2025-03-15T05:00:00Z"
+    },
+    {
+        "id": "69a3966cb04b4c8c3e98d48c",
+        "producto": "audifono_3",
+        "categoria": "audifono",
+        "cliente": "cliente_19",
+        "precio_unitario": 70,
+        "cantidad": 3,
+        "total_venta": 210,
+        "fecha_compra": "2025-02-12T05:00:00Z"
+    },
+    {
+        "id": "69a3966cb04b4c8c3e98d48d",
+        "producto": "mouse_1",
+        "categoria": "mouse",
+        "cliente": "cliente_18",
+        "precio_unitario": 25,
+        "cantidad": 5,
+        "total_venta": 125,
+        "fecha_compra": "2025-01-09T05:00:00Z"
+    },
+    {
+        "id": "69a3966cb04b4c8c3e98d48e",
+        "producto": "mouse_2",
+        "categoria": "mouse",
+        "cliente": "cliente_17",
+        "precio_unitario": 20,
+        "cantidad": 3,
+        "total_venta": 60,
+        "fecha_compra": "2025-12-21T05:00:00Z"
+    },
+    {
+        "id": "69a3966cb04b4c8c3e98d48f",
+        "producto": "mouse_3",
+        "categoria": "mouse",
+        "cliente": "cliente_16",
+        "precio_unitario": 30,
+        "cantidad": 1,
+        "total_venta": 30,
+        "fecha_compra": "2025-11-17T05:00:00Z"
+    },
+    {
+        "id": "69a3966cb04b4c8c3e98d490",
+        "producto": "teclado_1",
+        "categoria": "teclado",
+        "cliente": "cliente_15",
+        "precio_unitario": 40,
+        "cantidad": 2,
+        "total_venta": 80,
+        "fecha_compra": "2025-10-12T05:00:00Z"
+    },
+    {
+        "id": "69a3966cb04b4c8c3e98d491",
+        "producto": "teclado_2",
+        "categoria": "teclado",
+        "cliente": "cliente_14",
+        "precio_unitario": 45,
+        "cantidad": 1,
+        "total_venta": 45,
+        "fecha_compra": "2025-09-29T05:00:00Z"
+    },
+    {
+        "id": "69a3966cb04b4c8c3e98d492",
+        "producto": "teclado_3",
+        "categoria": "teclado",
+        "cliente": "cliente_13",
+        "precio_unitario": 75,
+        "cantidad": 2,
+        "total_venta": 150,
+        "fecha_compra": "2025-08-10T05:00:00Z"
+    },
+    {
+        "id": "69a3966cb04b4c8c3e98d493",
+        "producto": "teclado_3",
+        "categoria": "teclado",
+        "cliente": "cliente_2",
+        "precio_unitario": 75,
+        "cantidad": 4,
+        "total_venta": 300,
+        "fecha_compra": "2025-07-10T05:00:00Z"
+    },
+    {
+        "id": "69a3966cb04b4c8c3e98d494",
+        "producto": "teclado_1",
+        "categoria": "teclado",
+        "cliente": "cliente_5",
+        "precio_unitario": 40,
+        "cantidad": 2,
+        "total_venta": 120,
+        "fecha_compra": "2025-06-02T05:00:00Z"
+    },
+    {
+        "id": "69a3966cb04b4c8c3e98d495",
+        "producto": "teclado_3",
+        "categoria": "teclado",
+        "cliente": "cliente_11",
+        "precio_unitario": 75,
+        "cantidad": 1,
+        "total_venta": 75,
+        "fecha_compra": "2025-05-30T05:00:00Z"
+    },
+    {
+        "id": "69a3966cb04b4c8c3e98d496",
+        "producto": "laptop_2",
+        "categoria": "laptop",
+        "cliente": "cliente_10",
+        "precio_unitario": 800,
+        "cantidad": 1,
+        "total_venta": 800,
+        "fecha_compra": "2025-04-20T05:00:00Z"
+    },
+    {
+        "id": "69a3966cb04b4c8c3e98d497",
+        "producto": "teclado_1",
+        "categoria": "teclado",
+        "cliente": "cliente_7",
+        "precio_unitario": 40,
+        "cantidad": 2,
+        "total_venta": 80,
+        "fecha_compra": "2025-03-02T05:00:00Z"
+    },
+    {
+        "id": "69a3966cb04b4c8c3e98d498",
+        "producto": "teclado_1",
+        "categoria": "teclado",
+        "cliente": "cliente_7",
+        "precio_unitario": 40,
+        "cantidad": 2,
+        "total_venta": 80,
+        "fecha_compra": "2025-02-02T05:00:00Z"
+    },
+    {
+        "id": "69a3966cb04b4c8c3e98d499",
+        "producto": "teclado_1",
+        "categoria": "teclado",
+        "cliente": "cliente_7",
+        "precio_unitario": 40,
+        "cantidad": 2,
+        "total_venta": 80,
+        "fecha_compra": "2025-01-30T05:00:00Z"
+    },
+    {
+        "id": "69a4d1c0c9722767e19f6658",
+        "producto": "audifono_2",
+        "categoria": "audifono",
+        "cliente": "cliente_24",
+        "precio_unitario": 90,
+        "cantidad": 5,
+        "total_venta": 540,
+        "fecha_compra": "2025-11-01T05:00:00Z"
+    },
+    {
+        "id": "69a5ac4d2b3c278f90fd8e6e",
+        "producto": "laptop_9",
+        "categoria": "laptop",
+        "cliente": "cliente_21",
+        "precio_unitario": 120,
+        "cantidad": 4,
+        "total_venta": 480,
+        "fecha_compra": "2025-07-01T05:00:00Z"
     }
 ]

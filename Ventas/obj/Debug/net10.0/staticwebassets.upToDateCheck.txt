@@ -1,0 +1,14 @@
+wwwroot\db.json
+wwwroot\index.html
+wwwroot\movil.html
+wwwroot\script\modelar_datos.js
+wwwroot\script\recuperar_registros.js
+wwwroot\styles\style.css
+wwwroot\script\recuperar_datos.js
+C:\Users\Eden\Desktop\APIRest\Ventas\wwwroot\db.json
+C:\Users\Eden\Desktop\APIRest\Ventas\wwwroot\index.html
+C:\Users\Eden\Desktop\APIRest\Ventas\wwwroot\movil.html
+C:\Users\Eden\Desktop\APIRest\Ventas\wwwroot\script\modelar_datos.js
+C:\Users\Eden\Desktop\APIRest\Ventas\wwwroot\script\recuperar_registros.js
+C:\Users\Eden\Desktop\APIRest\Ventas\wwwroot\styles\style.css
+C:\Users\Eden\Desktop\APIRest\Ventas\wwwroot\script\recuperar_datos.js

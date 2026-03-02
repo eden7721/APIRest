@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de Ventas vista Móvil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body class="bg-light">
+    <h1>Vista Móvil</h1>
+    <!--form-1-->
+    <form id="form-1">
+        <div class="container mt-5">
+            <div class="card shadow p-4">
+                <h4 class="mb-4">Filtrar Datos</h4>
+
+                <!-- Periodo -->
+                <div class="mb-3">
+                    <label for="selector-periodo" class="form-label">Periodo</label>
+                    <select name="selector-periodo" id="selector-periodo" class="form-select">
+                        <option value="mes" selected>Mensual</option>
+                        <option value="trimestre">Trimestral</option>
+                        <option value="global">Anual</option>
+                    </select>
+                </div>
+
+                <!-- Tiempo -->
+                <div class="mb-3">
+                    <label for="selector-tiempo" class="form-label">Selecciona</label>
+                    <select name="selector-tiempo" id="selector-tiempo" class="form-select">
+                        <option value="1">Enero</option>
+                        <option value="2">Febrero</option>
+                        <option value="3">Marzo</option>
+                        <option value="4">Abril</option>
+                        <option value="5">Mayo</option>
+                        <option value="6">Junio</option>
+                        <option value="7">Julio</option>
+                        <option value="8">Agosto</option>
+                        <option value="9">Septiembre</option>
+                        <option value="10">Octubre</option>
+                        <option value="11">Noviembre</option>
+                        <option value="12">Diciembre</option>
+                    </select>
+                </div>
+
+                <!-- Tipo -->
+                <div class="mb-4">
+                    <label for="selector-tipo" class="form-label">Tipo</label>
+                    <select name="selector-tipo" id="selector-tipo" class="form-select">
+                        <option value="false">Valor</option>
+                        <option value="true">Cantidad</option>
+                    </select>
+                </div>
+
+                <!-- Botón -->
+                <div class="d-grid">
+                    <button id="btn-enviar-datos" class="btn btn-primary">
+                        Recuperar Datos
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </form>
+    <section>
+        <br><br>
+        <h2>Resultados Periodo <span class="title-periodo"></span></h2>
+        <div class="productos container mt-4">
+            <div class="mejor-producto card shadow p-4 contenedor-producto">
+
+                <h5 class="mb-3 fw-bold">Mejor Producto por <span class="title-tipo"></span></h5>
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between">
+                        <span class="fw-semibold">Producto</span>
+                        <span class="producto"></span>
+                    </li>
+
+                    <li class="list-group-item d-flex justify-content-between">
+                        <span class="fw-semibold">Categoría</span>
+                        <span class="categoria"></span>
+                    </li>
+
+                    <li class="list-group-item d-flex justify-content-between">
+                        <span class="fw-semibold">Valor de venta</span>
+                        <span class="text-success valor-venta"></span>
+                    </li>
+
+                    <li class="list-group-item d-flex justify-content-between">
+                        <span class="fw-semibold">Unidades vendidas</span>
+                        <span class="text-primary cantidad-venta"></span>
+                    </li>
+                </ul>
+            </div>
+            <br>
+            <div class="peor-producto card shadow p-4 contenedor-producto">
+                <h5 class="mb-3 fw-bold">Peor Producto por <span class="title-tipo"></span></h5>
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between">
+                        <span class="fw-semibold">Producto</span>
+                        <span class="producto"></span>
+                    </li>
+
+                    <li class="list-group-item d-flex justify-content-between">
+                        <span class="fw-semibold">Categoría</span>
+                        <span class="categoria"></span>
+                    </li>
+
+                    <li class="list-group-item d-flex justify-content-between">
+                        <span class="fw-semibold">Valor de venta</span>
+                        <span class="text-success valor-venta"></span>
+                    </li>
+
+                    <li class="list-group-item d-flex justify-content-between">
+                        <span class="fw-semibold">Unidades vendidas</span>
+                        <span class="text-primary cantidad-venta"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="graficas">
+            <div class="grafica-mejores-productos">
+                <div class="card shadow p-4 mt-4">
+                    <h5 class="fw-bold mb-3">Mejores productos por <span class="title-tipo"></span></h5>
+                    <canvas id="miGrafico1" height="300"></canvas>
+                </div>
+            </div>
+            <div class="grafica-peores-productos">
+                <div class="card shadow p-4 mt-4">
+                    <h5 class="fw-bold mb-3">Peores productos por <span class="title-tipo"></span></h5>
+                    <canvas id="miGrafico2" height="300"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="graficas-categorias">
+            <div class="graficas-categoria-mejores-productos">
+                <div class="card shadow p-4 mt-4">
+                    <h5 class="fw-bold mb-3">Mejores categorias por <span class="title-tipo"></span></h5>
+                    <canvas id="miGrafico3" height="300"></canvas>
+                </div>
+            </div>
+            <div class="graficas-categoria-peores-productos">
+                <div class="card shadow p-4 mt-4">
+                    <h5 class="fw-bold mb-3">Peores categorias por <span class="title-tipo"></span></h5>
+                    <canvas id="miGrafico4" height="300"></canvas>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <template id="template-mes">
+        <option value="1">Enero</option>
+        <option value="2">Febrero</option>
+        <option value="3">Marzo</option>
+        <option value="4">Abril</option>
+        <option value="5">Mayo</option>
+        <option value="6">Junio</option>
+        <option value="7">Julio</option>
+        <option value="8">Agosto</option>
+        <option value="9">Septiembre</option>
+        <option value="10">Octubre</option>
+        <option value="11">Noviembre</option>
+        <option value="12">Diciembre</option>
+    </template>
+
+    <template id="template-trimestre">
+        <option value="1">Primer Trimestre</option>
+        <option value="2">Segundo Trimesre</option>
+        <option value="3">Tercer Trimestre</option>
+    </template>
+
+    <template id="template-global">
+        <option value="1">Anual</option>
+    </template>
+    <script>
+        function esDispositivoMovil() {
+            const porTamano = window.innerWidth <= 768;
+            const porUserAgent = /Android|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i.test(navigator.userAgent);
+            return porTamano && porUserAgent;
+        }
+
+        if (!esDispositivoMovil()) {
+            window.location.replace("index.html");
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script/modelar_datos.js" type="module"></script>
+    
+</body>
+
+</html>

@@ -9,7 +9,10 @@
       "url": "https://localhost:7125"
     },
     {
-      "url": "http://localhost:5206"
+      "url": "https://192.168.142.162:7125"
+    },
+    {
+      "url": "http://0.0.0.0:5206"
     }
   ],
   "paths": {

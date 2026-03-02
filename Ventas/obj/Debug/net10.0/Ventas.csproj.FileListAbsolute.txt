@@ -78,3 +78,13 @@ C:\Users\Adan\Desktop\asp\Ventas\obj\Debug\net10.0\staticwebassets.upToDateCheck
 C:\Users\Adan\Desktop\asp\Ventas\obj\Debug\net10.0\Ventas.csproj.Up2Date
 C:\Users\Adan\Desktop\asp\Ventas\obj\Debug\net10.0\Ventas.genruntimeconfig.cache
 C:\Users\Adan\Desktop\asp\Ventas\obj\Debug\net10.0\ref\Ventas.dll
+C:\Users\Eden\Desktop\APIRest\Ventas\obj\Debug\net10.0\Ventas.sourcelink.json
+C:\Users\Eden\Desktop\APIRest\Ventas\bin\Debug\net10.0\Ventas.staticwebassets.runtime.json
+C:\Users\Eden\Desktop\APIRest\Ventas\obj\Debug\net10.0\compressed\yywwmlsta8-{0}-1npwpr91cy-1npwpr91cy.gz
+C:\Users\Eden\Desktop\APIRest\Ventas\obj\Debug\net10.0\compressed\k7qlp7r7fd-{0}-hfovcw7w94-hfovcw7w94.gz
+C:\Users\Eden\Desktop\APIRest\Ventas\obj\Debug\net10.0\compressed\kf9drlrwoh-{0}-3rpwwhm0se-3rpwwhm0se.gz
+C:\Users\Eden\Desktop\APIRest\Ventas\obj\Debug\net10.0\compressed\8n6v2uytgt-{0}-nfhf9kvk06-nfhf9kvk06.gz
+C:\Users\Eden\Desktop\APIRest\Ventas\obj\Debug\net10.0\compressed\h1b7ujmxs2-{0}-3lb6t8vv53-3lb6t8vv53.gz
+C:\Users\Eden\Desktop\APIRest\Ventas\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\Eden\Desktop\APIRest\Ventas\obj\Debug\net10.0\compressed\0xo5ucwyrq-{0}-ybhff598fl-ybhff598fl.gz
+C:\Users\Eden\Desktop\APIRest\Ventas\obj\Debug\net10.0\compressed\3f7mo8o6m3-{0}-agdrfwolzd-agdrfwolzd.gz
