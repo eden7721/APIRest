@@ -17,53 +17,20 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/BoardGame"
-                  }
+                  "$ref": "#/components/schemas/BoardGameArrayRestDTO"
                 }
               },
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/BoardGame"
-                  }
+                  "$ref": "#/components/schemas/BoardGameArrayRestDTO"
                 }
               },
               "text/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/BoardGame"
-                  }
+                  "$ref": "#/components/schemas/BoardGameArrayRestDTO"
                 }
               }
             }
-          }
-        }
-      }
-    },
-    "/error": {
-      "get": {
-        "tags": [
-          "MyBGList"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/error/test": {
-      "get": {
-        "tags": [
-          "MyBGList"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
           }
         }
       }
@@ -99,15 +66,50 @@
           }
         },
         "additionalProperties": false
+      },
+      "BoardGameArrayRestDTO": {
+        "type": "object",
+        "properties": {
+          "links": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/LinkDTO"
+            },
+            "nullable": true
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BoardGame"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LinkDTO": {
+        "type": "object",
+        "properties": {
+          "href": {
+            "type": "string",
+            "nullable": true
+          },
+          "rel": {
+            "type": "string",
+            "nullable": true
+          },
+          "type": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
       }
     }
   },
   "tags": [
     {
       "name": "BoardGames"
-    },
-    {
-      "name": "MyBGList"
     }
   ]
 }

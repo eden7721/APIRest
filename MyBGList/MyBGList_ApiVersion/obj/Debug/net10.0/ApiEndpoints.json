@@ -1,0 +1,89 @@
+[
+  {
+    "ContainingType": "MyBGList.Controllers.v1.BoardGamesController",
+    "Method": "Get",
+    "RelativePath": "v1/BoardGames",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "MyBGList.DTO.v1.RestDTO\u00601[[MyBGList.BoardGame[], MyBGList_ApiVersion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetBoardGames"
+  },
+  {
+    "ContainingType": "MyBGList.Controllers.v2.BoardGamesController",
+    "Method": "Get",
+    "RelativePath": "v2/BoardGames",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "MyBGList.DTO.v2.RestDTO\u00601[[MyBGList.BoardGame[], MyBGList_ApiVersion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetBoardGames"
+  },
+  {
+    "ContainingType": "MyBGList_ApiVersion.Controllers.v2.CodeOnDemandController",
+    "Method": "Test",
+    "RelativePath": "v2/CodeOnDemand/Test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "Test"
+  },
+  {
+    "ContainingType": "MyBGList_ApiVersion.Controllers.v2.CodeOnDemandController",
+    "Method": "Test2",
+    "RelativePath": "v2/CodeOnDemand/Test2",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addMinutes",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "Test2"
+  },
+  {
+    "ContainingType": "MyBGList_ApiVersion.Controllers.v3.CodeOnDemand",
+    "Method": "Test2",
+    "RelativePath": "v3/CodeOnDemand/Test2",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "minutesToAdd",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "Test2"
+  }
+]
